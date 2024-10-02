@@ -22,49 +22,58 @@
   justify-content: center;
   background-color: #8FA2FF;
 }
-.home-button1 {
-  background-color: transparent;
-}
-.home-button2 {
-  background-color: transparent;
-}
+
 .home-navlink1 {
+  transition: 0.5s;
   text-decoration: none;
   background-color: transparent;
 }
+
 .home-navlink2 {
+  transition: 0.6s;
   text-decoration: none;
   background-color: transparent;
 }
-.home-image {
-  top: 165px;
-  left: 100px;
-  width: 200px;
-  height: 202px;
-  position: absolute;
-  object-fit: cover;
-  border-color: #a4a4a4;
-  border-style: solid;
-  border-width: 10px;
-  border-radius: var(--dl-radius-radius-round);
+
+.home-navlink3 {
+  transition: 0.7s;
+  text-decoration: none;
+  background-color: transparent;
 }
-.home-text1 {
-  top: 238px;
-  left: 346px;
-  color: var(--dl-color-theme-secondary1);
-  position: absolute;
+
+.home-navlink4 {
+  transition: 0.8s;
+  text-decoration: none;
+  background-color: transparent;
 }
-.home-text6 {
-  top: 144px;
-  left: 341px;
-  color: var(--dl-color-theme-secondary1);
-  position: absolute;
-  font-size: 32px;
-  max-width: auto;
-  min-width: auto;
-  font-style: normal;
-  font-weight: 700;
-  border-radius: var(--dl-radius-radius-cardradius);
+input[type="checkbox"] {
+  display: none;
+}
+
+/* Style the label as a button */
+.toggle-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Hide the image by default */
+.toggle-content {
+  display: none;
+  margin-top: 10px;
+  
+}
+
+
+/* When the checkbox is checked, show the image */
+input[type="checkbox"]:checked + label + .toggle-content {
+  display: block;
+  transition: 1s;
 }
 @media(max-width: 400px) {
   .home-container2 {
@@ -80,8 +89,8 @@
     height: 53px;
   }
   .home-navlink1 {
-    width: auto;
-    height: auto;
+    width: 108px;
+    height: 53px;
   }
   .home-navlink2 {
     width: 108px;

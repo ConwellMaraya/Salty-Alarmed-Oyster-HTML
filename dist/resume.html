@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>404 - Not Found</title>
+    <title>Resume</title>
+    <meta property="og:title" content="Resume" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -53,20 +54,29 @@
     />
   </head>
   <body>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <div>
-      <link href="./404.css" rel="stylesheet" />
+      <link href="../css/resume.css" rel="stylesheet" />
 
-      <div class="not-found-container1">
-        <h3>OOPS! PAGE NOT FOUND</h3>
-        <div class="not-found-container2">
-          <h1 class="not-found-text2">404</h1>
+      <div class="home-container1">
+        <div class="home-container2">
+          <a href="index.html" class="home-navlink1 button">Main Page</a>
+          <a href="projects.html" class="home-navlink2 button">Projects</a>
+          <a href="aboutme.html" class="home-navlink3 button">About Me</a>
+          <a href="contact-page.html" class="home-navlink4 button">Contacts</a>
         </div>
-        <div class="not-found-container3">
-          <h2 class="not-found-text3">
-            WE ARE SORRY, BUT THE PAGE YOU REQUESTED WAS NOT FOUND
-          </h2>
+        <input type="checkbox" id="toggle-image">
+
+        <!-- Label that acts as the button to toggle the image -->
+        <label for="toggle-image" class="toggle-btn">Show/Hide Image</label>
+    
+        <!-- Image content to show or hide -->
+        <div class="toggle-content">
+            <span class = "resumeimg">
+              <img src="../css/asessts/Resume.jpg" alt="Toggled Image" style="max-width: 100%; height: auto; border-radius: 8px;">
+            </span>
         </div>
+
       </div>
     </div>
   </body>

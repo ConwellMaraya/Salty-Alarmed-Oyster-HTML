@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+.home-container1 {
+  width: 100vw;
+  display: flex;
+  min-height: 100vh;
+  align-items: right;
+  flex-direction: column;
+}
+.home-container2 {
+  width: 100%;
+  height: 67px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: #8FA2FF;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  justify-content: center;
+  background-color: #8FA2FF;
+}
+.home-navlink1 {
+  transition: 0.5s;
+  text-decoration: none;
+  background-color: transparent;
+}
+.home-navlink2 {
+  transition: 0.6s;
+  text-decoration: none;
+  background-color: transparent;
+}
+.home-navlink3 {
+  transition: 0.7s;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.home-navlink4 {
+  transition: 0.8s;
+  text-decoration: none;
+  background-color: transparent;
+}
+.home-image {
+  top: 165px;
+  left: 100px;
+  width: 200px;
+  height: 202px;
+  position: absolute;
+  object-fit: cover;
+  border-color: #a4a4a4;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.home-text1 {
+  top: 238px;
+  left: 346px;
+  color: var(--dl-color-theme-secondary1);
+  position: absolute;
+}
+.home-text6 {
+  top: 144px;
+  left: 341px;
+  color: var(--dl-color-theme-secondary1);
+  position: absolute;
+  font-size: 32px;
+  max-width: auto;
+  min-width: auto;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: var(--dl-radius-radius-cardradius);
+}
+@media(max-width: 700px) {
+  .home-container2 {
+    width: 100%;
+    height: 67px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: #8FA2FF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius4);
+    justify-content: center;
+    background-color: #8FA2FF;
+  }
+  .home-image {
+    top: -225px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 155px;
+    height: 167px;
+    position: relative;
+  }
+  .home-text1 {
+    top: 418px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+  }
+  .home-text6 {
+    top: 343px;
+    fill: var(--dl-color-theme-secondary1);
+    left: 0px;
+    right: 0px;
+    color: var(--dl-color-theme-secondary1);
+    margin: auto;
+    font-size: 25px;
+    font-style: normal;
+    max-height: auto;
+    min-height: auto;
+    text-align: center;
+    font-weight: 700;
+  }
+}
