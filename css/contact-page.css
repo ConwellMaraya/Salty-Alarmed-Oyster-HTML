@@ -1,3 +1,5 @@
+
+
 .contact-page-container1 {
   width: 100%;
   display: flex;
@@ -47,13 +49,18 @@
   left: 46px;
   color: var(--dl-color-theme-secondary1);
   position: absolute;
+  transition: 1s;
+  font-size: 3em;
 }
 .contact-page-text14 {
-  top: 157px;
+  top: 220px;
   fill: var(--dl-color-theme-secondary1);
-  left: 46px;
+  left: 60px;
   color: var(--dl-color-theme-secondary1);
   position: absolute;
+  transition: 1s;
+  font-size: 1.5em;
+
 }
 @media(max-width: 400px) {
   .contact-page-navlink2 {
